@@ -1,0 +1,43 @@
+body{
+    background-color: #f4f4f4;
+    font-family: Arial,sans-serif;
+}
+h1{
+    color:blue;
+    font-size :40px;
+}
+h2{
+    color:darkblue;
+}
+#brand
+{
+    color:darkblue;
+}
+.product-name{
+    color: green;
+}
+.product-price
+{
+    color:red;
+}
+
+
+.product-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-card {
+    background-color: lightgray;
+    width: 200px;
+    height: 300px;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
